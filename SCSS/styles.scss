@@ -1,0 +1,146 @@
+.enlaces {
+    display: flex;
+    list-style-type: none;
+    padding: 2rem;
+    text-align: center;
+    justify-content: center;
+  
+    li {
+      margin: 0 15px;
+  
+      a {
+        display: flex;
+        justify-content: center;
+        text-decoration: none;
+        color: rgba(18, 17, 17, 0.749);
+        margin-right: 10px;
+        padding-right: 30px;
+        border-right: 1px solid rgba(41, 38, 38, 0.785);
+  
+        &:hover {
+          color: rgba(165, 42, 42, 0.747);
+        }
+      }
+    }
+  }
+
+  .galeria{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    width: 80%;
+    margin: 0 auto;
+    
+    img{
+        width: 20rem;
+        height: 20rem;
+        object-fit: cover;
+        margin: 2px;
+        border-radius: 2rem;
+    }
+    
+}
+
+.button{
+    display: flex;
+    justify-content: center;
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+    padding: 1rem;
+    text-align: center;
+    border-radius: 2rem;
+    text-decoration: none;
+    background-color: beige;
+    color: rgba(28, 27, 27, 0.74);
+
+    &:hover{
+        background-color: rgba(165, 42, 42, 0.642);
+    }
+}
+.card img{
+    width: 25rem;
+    border-radius: 2rem;
+    text-align: center;
+    background-color: rgba(198, 198, 178, 0.795);
+    height: 25rem;
+    object-fit: cover;
+
+
+    card{
+        width: 25rem;
+        border-radius: 2rem;
+        text-align: center;
+        background-color: rgba(198, 198, 178, 0.795);
+    }
+}
+
+.contenedorflex{
+    display: flex;
+    object-fit: cover;
+    justify-content: space-around;
+    gap: 1rem;
+    flex-wrap: wrap;
+
+    .card{
+        padding: 1rem;
+
+        h2{
+            margin: 0;
+            text-align: center;
+            background-color: rgba(198, 198, 178, 0.55);
+        p{
+                font-size: 0,8rem;
+                margin-top: 1rem;
+                margin-bottom: 1rem;
+                background-color: rgba(198, 198, 178, 0.795);
+        button{
+                    border: none;
+                    font-size: 1rem;
+                    background-color: rgba(249, 249, 243, 0.881);
+                    padding: 1rem 1rem;
+                    border-radius: 1rem;
+                    cursor: pointer;
+        }
+                
+        }
+        }
+         
+     }
+    
+}    
+
+.containercontact h2{
+    text-align: center;
+    padding-top: 1rem;
+    font-size: 2rem;
+
+    h3{
+        text-align: center;
+        font-size: 1rem;
+
+    h4{
+            text-align: center;
+            font-size: 1rem;
+    
+
+    img{
+        width: 10rem;
+        height: 10rem;
+        border-radius: 2rem;
+        margin-left: 14rem;
+        margin-top: 1rem;
+    }
+    }
+        
+    }
+    
+}
+
+.logoinstagram img{
+    margin-top: 1rem;
+}
+
+
+
+
+

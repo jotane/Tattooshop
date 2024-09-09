@@ -1,166 +1,125 @@
-
-*{
-    font-family: "Roboto Condensed", sans-serif;
+.enlaces {
+  display: flex;
+  list-style-type: none;
+  padding: 2rem;
+  text-align: center;
+  justify-content: center;
 }
-*{
-    background-color: rgba(162, 237, 219, 0.507);
-    margin: 0;
-    padding: 0;
+.enlaces li {
+  margin: 0 15px;
 }
-
-.h1principal{
-    font-weight: 400;
-    font-size: 4rem;
-    text-align: center;
-
+.enlaces li a {
+  display: flex;
+  justify-content: center;
+  text-decoration: none;
+  color: rgba(18, 17, 17, 0.749);
+  margin-right: 10px;
+  padding-right: 30px;
+  border-right: 1px solid rgba(41, 38, 38, 0.785);
 }
-
-.enlaces{
-    display: flex;
-    list-style-type: none;
-    padding: 2rem;
-    text-align: center;
-    justify-content: center;
+.enlaces li a:hover {
+  color: rgba(165, 42, 42, 0.747);
 }
 
-.enlaces li{
-    margin: 0 15px;
+.galeria {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  width: 80%;
+  margin: 0 auto;
+}
+.galeria img {
+  width: 20rem;
+  height: 20rem;
+  object-fit: cover;
+  margin: 2px;
+  border-radius: 2rem;
 }
 
-.enlaces li a{
-    display: flex;
-    justify-content: center;
-    text-decoration: none;
-    color: rgba(18, 17, 17, 0.749);
-    margin-right: 10px;
-    padding-right: 30px;
-    border-right: 1px solid rgba(41, 38, 38, 0.785);
-    
-}
-
-.enlaces a:hover{
-    color: rgba(165, 42, 42, 0.747);
-}
-
-.galeria img{
-    width: 20rem;
-    height: 20rem;
-    object-fit: cover;
-    margin: 2px;
-    border-radius: 2rem;
-}
-
-
-.galeria{
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: space-between;
-    width: 80%;
-    margin: 0 auto;
-}
-
-/*footer index.html*/
-.button{
-    display: flex;
-    justify-content: center;
-    margin-top: 2rem;
-    margin-bottom: 2rem;
-    padding: 1rem;
-    text-align: center;
-    border-radius: 2rem;
-    text-decoration: none;
-    background-color: beige;
-    color: rgba(28, 27, 27, 0.74);
+.button {
+  display: flex;
+  justify-content: center;
+  margin-top: 2rem;
+  margin-bottom: 2rem;
+  padding: 1rem;
+  text-align: center;
+  border-radius: 2rem;
+  text-decoration: none;
+  background-color: beige;
+  color: rgba(28, 27, 27, 0.74);
 }
 .button:hover {
-    background-color: rgba(165, 42, 42, 0.642);
+  background-color: rgba(165, 42, 42, 0.642);
 }
 
-/*estudio*/
-
-.card img, .card{
-    width: 25rem;
-    border-radius: 2rem;
-    text-align: center;
-    background-color: rgba(198, 198, 178, 0.795);
+.card img {
+  width: 25rem;
+  border-radius: 2rem;
+  text-align: center;
+  background-color: rgba(198, 198, 178, 0.795);
+  height: 25rem;
+  object-fit: cover;
 }
-.card img{
-    height: 25rem;
-    object-fit: cover;
-}
-
-.contenedorflex{
-    display: flex;
-    object-fit: cover;
-    justify-content: space-around;
-    gap: 1rem;
-    flex-wrap: wrap;
-}    
- .card{
-    padding: 1rem;
- }
- .card h2{
-    margin: 0;
-    text-align: center;
-    background-color: rgba(198, 198, 178, 0.55);
- }
- .card p{
-    font-size: 0,8rem;
-    margin-top: 1rem;
-    margin-bottom: 1rem;
-    background-color: rgba(198, 198, 178, 0.795);
- }
-.card button{
-    border: none;
-    font-size: 1rem;
-    background-color: rgba(249, 249, 243, 0.881);
-    padding: 1rem 1rem;
-    border-radius: 1rem;
-    cursor: pointer;
+.card img card {
+  width: 25rem;
+  border-radius: 2rem;
+  text-align: center;
+  background-color: rgba(198, 198, 178, 0.795);
 }
 
-
-.containercontact h2{
-    text-align: center;
-    padding-top: 1rem;
-    font-size: 2rem;
+.contenedorflex {
+  display: flex;
+  object-fit: cover;
+  justify-content: space-around;
+  gap: 1rem;
+  flex-wrap: wrap;
 }
-.containercontact h3{
-    text-align: center;
-    font-size: 1rem;
+.contenedorflex .card {
+  padding: 1rem;
 }
-.containercontact h4{
-    text-align: center;
-    font-size: 1rem;
+.contenedorflex .card h2 {
+  margin: 0;
+  text-align: center;
+  background-color: rgba(198, 198, 178, 0.55);
 }
-.containercontact img{
-    width: 10rem;
-    height: 10rem;
-    border-radius: 2rem;
-    margin-left: 14rem;
-    margin-top: 1rem;
+.contenedorflex .card h2 p {
+  font-size: 0, 8rem;
+  margin-top: 1rem;
+  margin-bottom: 1rem;
+  background-color: rgba(198, 198, 178, 0.795);
 }
-.logoinstagram img{
-    margin-top: 1rem;
-}
-
-@media (max-width: 768px) {
-    header {
-        padding: 10px;
-    }
-
-    nav ul {
-        flex-direction: column; 
-        align-items: center;
-    }
-
-    nav ul li {
-        margin: 5px 0; 
-    }
-
-    nav ul li a {
-        font-size: 16px; 
-    }
+.contenedorflex .card h2 p button {
+  border: none;
+  font-size: 1rem;
+  background-color: rgba(249, 249, 243, 0.881);
+  padding: 1rem 1rem;
+  border-radius: 1rem;
+  cursor: pointer;
 }
 
-        
+.containercontact h2 {
+  text-align: center;
+  padding-top: 1rem;
+  font-size: 2rem;
+}
+.containercontact h2 h3 {
+  text-align: center;
+  font-size: 1rem;
+}
+.containercontact h2 h3 h4 {
+  text-align: center;
+  font-size: 1rem;
+}
+.containercontact h2 h3 h4 img {
+  width: 10rem;
+  height: 10rem;
+  border-radius: 2rem;
+  margin-left: 14rem;
+  margin-top: 1rem;
+}
+
+.logoinstagram img {
+  margin-top: 1rem;
+}
+
+/*# sourceMappingURL=style.css.map */
