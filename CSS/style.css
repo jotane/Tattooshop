@@ -1,16 +1,24 @@
-.enlaces {
+.button, .enlaces li a, .enlaces {
   display: flex;
+  justify-content: center;
+}
+
+* {
+  font-family: "Roboto Condensed", sans-serif;
+  background-color: rgba(162, 237, 219, 0.507);
+  margin: 0;
+  padding: 0;
+}
+
+.enlaces {
   list-style-type: none;
   padding: 2rem;
   text-align: center;
-  justify-content: center;
 }
 .enlaces li {
   margin: 0 15px;
 }
 .enlaces li a {
-  display: flex;
-  justify-content: center;
   text-decoration: none;
   color: rgba(18, 17, 17, 0.749);
   margin-right: 10px;
@@ -23,8 +31,8 @@
 
 .galeria {
   display: flex;
-  flex-wrap: wrap;
   justify-content: space-between;
+  flex-wrap: wrap;
   width: 80%;
   margin: 0 auto;
 }
@@ -37,8 +45,6 @@
 }
 
 .button {
-  display: flex;
-  justify-content: center;
   margin-top: 2rem;
   margin-bottom: 2rem;
   padding: 1rem;
@@ -69,8 +75,8 @@
 
 .contenedorflex {
   display: flex;
-  object-fit: cover;
   justify-content: space-around;
+  object-fit: cover;
   gap: 1rem;
   flex-wrap: wrap;
 }
@@ -80,7 +86,7 @@
 .contenedorflex .card h2 {
   margin: 0;
   text-align: center;
-  background-color: rgba(198, 198, 178, 0.55);
+  background-color: rgba(198, 198, 178, 0.795);
 }
 .contenedorflex .card h2 p {
   font-size: 0, 8rem;
