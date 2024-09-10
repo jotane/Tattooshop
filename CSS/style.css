@@ -10,6 +10,12 @@
   padding: 0;
 }
 
+.h1principal {
+  font-weight: 400;
+  font-size: 4rem;
+  text-align: center;
+}
+
 .enlaces {
   list-style-type: none;
   padding: 2rem;
@@ -58,6 +64,12 @@
   background-color: rgba(165, 42, 42, 0.642);
 }
 
+.card {
+  width: 25rem;
+  border-radius: 2rem;
+  text-align: center;
+  background-color: rgba(198, 198, 178, 0.795);
+}
 .card img {
   width: 25rem;
   border-radius: 2rem;
@@ -65,12 +77,6 @@
   background-color: rgba(198, 198, 178, 0.795);
   height: 25rem;
   object-fit: cover;
-}
-.card img card {
-  width: 25rem;
-  border-radius: 2rem;
-  text-align: center;
-  background-color: rgba(198, 198, 178, 0.795);
 }
 
 .contenedorflex {
@@ -126,6 +132,22 @@
 
 .logoinstagram img {
   margin-top: 1rem;
+}
+
+@media (max-width: 768px) {
+  header {
+    padding: 10px;
+  }
+  nav ul {
+    flex-direction: column;
+    align-items: center;
+  }
+  nav ul li {
+    margin: 5px 0;
+  }
+  nav ul li a {
+    font-size: 16px;
+  }
 }
 
 /*# sourceMappingURL=style.css.map */

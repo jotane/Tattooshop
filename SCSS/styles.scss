@@ -20,6 +20,14 @@ $colorgrisclaro:rgba(198, 198, 178, 0.795);
     padding: 0;
 }
 
+.h1principal{
+    font-weight: 400;
+    font-size: 4rem;
+    text-align: $textoalineado;
+
+}
+
+
 
 .enlaces {
     @extend %flexbasico;
@@ -77,7 +85,15 @@ $colorgrisclaro:rgba(198, 198, 178, 0.795);
         background-color: rgba(165, 42, 42, 0.642);
     }
 }
-.card img{
+
+.card{
+    width: 25rem;
+    border-radius: 2rem;
+    text-align: $textoalineado;
+    background-color: $colorgrisclaro;
+
+    img{
+
     width: 25rem;
     border-radius: 2rem;
     text-align: $textoalineado;
@@ -86,11 +102,7 @@ $colorgrisclaro:rgba(198, 198, 178, 0.795);
     object-fit: cover;
 
 
-    card{
-        width: 25rem;
-        border-radius: 2rem;
-        text-align: $textoalineado;
-        background-color: $colorgrisclaro;
+    
     }
 }
 
@@ -128,7 +140,9 @@ $colorgrisclaro:rgba(198, 198, 178, 0.795);
     
 }    
 
-.containercontact h2{
+.containercontact{
+
+    h2{
     text-align: $textoalineado;
     padding-top: 1rem;
     font-size: 2rem;
@@ -153,11 +167,32 @@ $colorgrisclaro:rgba(198, 198, 178, 0.795);
         
     }
     
-}
+    }
+}    
 
 .logoinstagram img{
     margin-top: $margintop;
 }
+
+@media (max-width: 768px) {
+    header {
+        padding: 10px;
+    }
+
+    nav ul {
+        flex-direction: column; 
+        align-items: center;
+    }
+
+    nav ul li {
+        margin: 5px 0; 
+    }
+
+    nav ul li a {
+        font-size: 16px; 
+    }
+}
+
 
 
 
