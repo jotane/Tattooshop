@@ -94,13 +94,13 @@
   text-align: center;
   background-color: rgba(198, 198, 178, 0.795);
 }
-.contenedorflex .card h2 p {
+.contenedorflex .card p {
   font-size: 0, 8rem;
   margin-top: 1rem;
   margin-bottom: 1rem;
   background-color: rgba(198, 198, 178, 0.795);
 }
-.contenedorflex .card h2 p button {
+.contenedorflex .card button {
   border: none;
   font-size: 1rem;
   background-color: rgba(249, 249, 243, 0.881);
@@ -114,15 +114,15 @@
   padding-top: 1rem;
   font-size: 2rem;
 }
-.containercontact h2 h3 {
+.containercontact h3 {
   text-align: center;
   font-size: 1rem;
 }
-.containercontact h2 h3 h4 {
+.containercontact h4 {
   text-align: center;
   font-size: 1rem;
 }
-.containercontact h2 h3 h4 img {
+.containercontact img {
   width: 10rem;
   height: 10rem;
   border-radius: 2rem;
@@ -132,6 +132,58 @@
 
 .logoinstagram img {
   margin-top: 1rem;
+}
+
+.ubicacion{
+  text-align: center;
+  margin-top: 2rem;
+  
+}
+.ubicacion iframe{
+  border-radius: 1rem;
+  overflow: hidden;
+}
+
+
+/*diseños*/
+.diseños {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  width: 80%;
+  margin: 0 auto;
+}
+.diseños img {
+  width: 20rem;
+  height: 20rem;
+  object-fit: cover;
+  margin: 2px;
+  border-radius: 2rem;
+}  
+.diseños img:hover{
+  transform: scale(2);
+}
+.diseños2 {
+  text-align: center;
+  font-size: 1,8rem;
+  color: rgba(18, 17, 17, 0.749);
+  margin-top: 1rem;
+}
+
+.diseños2 p{
+  margin-bottom: 2rem;
+}
+a.buttonn{
+  margin: 2rem;
+  padding: 1rem;
+  text-align: center;
+  border-radius: 2rem;
+  text-decoration: none;
+  background-color: beige;
+  color: rgba(28, 27, 27, 0.74);
+}
+.buttonn:hover{
+  background-color: rgba(165, 42, 42, 0.642);
 }
 
 @media (max-width: 768px) {
@@ -151,3 +203,5 @@
 }
 
 /*# sourceMappingURL=style.css.map */
+
+

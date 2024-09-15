@@ -119,11 +119,13 @@ $colorgrisclaro:rgba(198, 198, 178, 0.795);
             margin: 0;
             text-align: $textoalineado;
             background-color: $colorgrisclaro;
+        }
         p{
                 font-size: 0,8rem;
                 margin-top: $margintop;
                 margin-bottom: 1rem;
                 background-color: $colorgrisclaro;
+        }
         button{
                     border: none;
                     font-size: 1rem;
@@ -136,9 +138,8 @@ $colorgrisclaro:rgba(198, 198, 178, 0.795);
         }
         }
          
-     }
     
-}    
+  
 
 .containercontact{
 
@@ -146,14 +147,17 @@ $colorgrisclaro:rgba(198, 198, 178, 0.795);
     text-align: $textoalineado;
     padding-top: 1rem;
     font-size: 2rem;
+    }
 
     h3{
         text-align: $textoalineado;
         font-size: 1rem;
+    }
 
     h4{
             text-align: $textoalineado;
             font-size: 1rem;
+    }
     
 
     img{
@@ -165,10 +169,7 @@ $colorgrisclaro:rgba(198, 198, 178, 0.795);
     }
     }
         
-    }
-    
-    }
-}    
+       
 
 .logoinstagram img{
     margin-top: $margintop;
