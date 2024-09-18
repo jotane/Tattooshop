@@ -175,6 +175,64 @@ $colorgrisclaro:rgba(198, 198, 178, 0.795);
     margin-top: $margintop;
 }
 
+.ubicacion{
+    text-align: $textoalineado;
+    margin-top: 2rem;
+
+          iframe{
+            border-radius: 1rem;
+            overflow: hidden;
+          }
+
+}
+
+.diseños{
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    width: 80%;
+    margin: 0 auto;
+
+       img{
+        width: 20rem;
+        height: 20rem;
+        object-fit: cover;
+        margin: 2px;
+        border-radius: 2rem;
+
+        :hover{
+            transform: scale(2);
+           }
+       }
+}
+
+.diseños2 {
+    text-align: $textoalineado;
+    font-size: 1,8rem;
+    color: rgba(18, 17, 17, 0.749);
+    margin-top: $margintop;
+        
+    p{
+        margin-bottom: 2rem;
+    }
+}    
+
+a.button{
+        margin: 2rem;
+        padding: 1rem;
+        text-align: $textoalineado;
+        border-radius: 2rem;
+        text-decoration: none;
+        background-color: beige;
+        color: rgba(28, 27, 27, 0.74);
+          
+}
+
+.button:hover{
+    background-color: rgba(165, 42, 42, 0.642);
+  }
+
+
 @media (max-width: 768px) {
     header {
         padding: 10px;

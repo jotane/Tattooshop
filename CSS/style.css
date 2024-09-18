@@ -1,3 +1,4 @@
+@charset "UTF-8";
 .button, .enlaces li a, .enlaces {
   display: flex;
   justify-content: center;
@@ -134,18 +135,15 @@
   margin-top: 1rem;
 }
 
-.ubicacion{
+.ubicacion {
   text-align: center;
   margin-top: 2rem;
-  
 }
-.ubicacion iframe{
+.ubicacion iframe {
   border-radius: 1rem;
   overflow: hidden;
 }
 
-
-/*diseños*/
 .diseños {
   display: flex;
   justify-content: space-between;
@@ -159,21 +157,22 @@
   object-fit: cover;
   margin: 2px;
   border-radius: 2rem;
-}  
-.diseños img:hover{
+}
+.diseños img :hover {
   transform: scale(2);
 }
+
 .diseños2 {
   text-align: center;
-  font-size: 1,8rem;
+  font-size: 1, 8rem;
   color: rgba(18, 17, 17, 0.749);
   margin-top: 1rem;
 }
-
-.diseños2 p{
+.diseños2 p {
   margin-bottom: 2rem;
 }
-a.buttonn{
+
+a.button {
   margin: 2rem;
   padding: 1rem;
   text-align: center;
@@ -182,7 +181,8 @@ a.buttonn{
   background-color: beige;
   color: rgba(28, 27, 27, 0.74);
 }
-.buttonn:hover{
+
+.button:hover {
   background-color: rgba(165, 42, 42, 0.642);
 }
 
@@ -203,5 +203,3 @@ a.buttonn{
 }
 
 /*# sourceMappingURL=style.css.map */
-
-
