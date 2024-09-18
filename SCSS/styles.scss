@@ -175,11 +175,11 @@ $colorgrisclaro:rgba(198, 198, 178, 0.795);
     margin-top: $margintop;
 }
 
-.ubicacion{
+.ubicacion {
     text-align: $textoalineado;
     margin-top: 2rem;
 
-          iframe{
+          iframe {
             border-radius: 1rem;
             overflow: hidden;
           }
@@ -193,14 +193,14 @@ $colorgrisclaro:rgba(198, 198, 178, 0.795);
     width: 80%;
     margin: 0 auto;
 
-       img{
+       img {
         width: 20rem;
         height: 20rem;
         object-fit: cover;
         margin: 2px;
         border-radius: 2rem;
 
-        :hover{
+        :hover {
             transform: scale(2);
            }
        }
@@ -208,16 +208,16 @@ $colorgrisclaro:rgba(198, 198, 178, 0.795);
 
 .diseños2 {
     text-align: $textoalineado;
-    font-size: 1,8rem;
+    font-size: 1, 8rem;
     color: rgba(18, 17, 17, 0.749);
     margin-top: $margintop;
         
-    p{
+    p {
         margin-bottom: 2rem;
     }
 }    
 
-a.button{
+a.buttonn{
         margin: 2rem;
         padding: 1rem;
         text-align: $textoalineado;
@@ -228,7 +228,7 @@ a.button{
           
 }
 
-.button:hover{
+.buttonn:hover {
     background-color: rgba(165, 42, 42, 0.642);
   }
 
