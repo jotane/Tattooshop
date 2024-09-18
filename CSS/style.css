@@ -132,7 +132,7 @@
 }
 
 .logoinstagram img {
-  margin-top: 1rem;
+  margin-top: 5rem;
 }
 
 .ubicacion {
@@ -172,7 +172,7 @@
   margin-bottom: 2rem;
 }
 
-a.button {
+a.buttonn {
   margin: 2rem;
   padding: 1rem;
   text-align: center;
@@ -182,7 +182,7 @@ a.button {
   color: rgba(28, 27, 27, 0.74);
 }
 
-.button:hover {
+.buttonn:hover {
   background-color: rgba(165, 42, 42, 0.642);
 }
 
