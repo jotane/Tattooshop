@@ -1,0 +1,13 @@
+$margintop: 1rem;
+$objectfit: cover;
+$textoalineado: center;
+$colores: rgba(198, 198, 178, 0.795), rgba(165, 42, 42, 0.642),rgba(245, 245, 220, 0.938) ,rgba(28, 27, 27, 0.74);
+%flexbasico{
+    display: flex;
+    justify-content: center;
+} 
+
+@mixin flexbasico($justifycontent){
+    display: flex;
+    justify-content: $justifycontent;
+}

@@ -33,7 +33,7 @@
   border-right: 1px solid rgba(41, 38, 38, 0.785);
 }
 .enlaces li a:hover {
-  color: rgba(165, 42, 42, 0.747);
+  color: rgba(165, 42, 42, 0.642);
 }
 
 .galeria {
@@ -58,7 +58,7 @@
   text-align: center;
   border-radius: 2rem;
   text-decoration: none;
-  background-color: beige;
+  background-color: rgba(245, 245, 220, 0.938);
   color: rgba(28, 27, 27, 0.74);
 }
 .button:hover {
@@ -104,7 +104,7 @@
 .contenedorflex .card button {
   border: none;
   font-size: 1rem;
-  background-color: rgba(249, 249, 243, 0.881);
+  background-color: rgba(245, 245, 220, 0.938);
   padding: 1rem 1rem;
   border-radius: 1rem;
   cursor: pointer;
@@ -158,7 +158,7 @@
   margin: 2px;
   border-radius: 2rem;
 }
-.diseños img :hover {
+.diseños img:hover {
   transform: scale(2);
 }
 
@@ -178,11 +178,10 @@ a.buttonn {
   text-align: center;
   border-radius: 2rem;
   text-decoration: none;
-  background-color: beige;
+  background-color: rgba(245, 245, 220, 0.938);
   color: rgba(28, 27, 27, 0.74);
 }
-
-.buttonn:hover {
+a.buttonn:hover {
   background-color: rgba(165, 42, 42, 0.642);
 }
 

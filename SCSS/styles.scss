@@ -1,15 +1,4 @@
-$margintop: 1rem;
-$textoalineado: center;
-$colorgrisclaro:rgba(198, 198, 178, 0.795);
-%flexbasico{
-    display: flex;
-    justify-content: center;
-} 
-
-@mixin flexbasico($justifycontent){
-    display: flex;
-    justify-content: $justifycontent;
-}
+@import "./utilities/variables";
 
 *{
     font-family: "Roboto Condensed", sans-serif;
@@ -48,7 +37,7 @@ $colorgrisclaro:rgba(198, 198, 178, 0.795);
         border-right: 1px solid rgba(41, 38, 38, 0.785);
   
         &:hover {
-          color: rgba(165, 42, 42, 0.747);
+          color: nth($colores,2);
         }
       }
     }
@@ -63,7 +52,7 @@ $colorgrisclaro:rgba(198, 198, 178, 0.795);
     img{
         width: 20rem;
         height: 20rem;
-        object-fit: cover;
+        object-fit: $objectfit;
         margin: 2px;
         border-radius: 2rem;
     }
@@ -78,11 +67,11 @@ $colorgrisclaro:rgba(198, 198, 178, 0.795);
     text-align: $textoalineado;
     border-radius: 2rem;
     text-decoration: none;
-    background-color: beige;
-    color: rgba(28, 27, 27, 0.74);
+    background-color: nth($colores, 3);
+    color: nth($colores, 4);
 
     &:hover{
-        background-color: rgba(165, 42, 42, 0.642);
+        background-color: nth($colores, 2);
     }
 }
 
@@ -90,16 +79,16 @@ $colorgrisclaro:rgba(198, 198, 178, 0.795);
     width: 25rem;
     border-radius: 2rem;
     text-align: $textoalineado;
-    background-color: $colorgrisclaro;
+    background-color: nth($colores, 1);
 
     img{
 
     width: 25rem;
     border-radius: 2rem;
     text-align: $textoalineado;
-    background-color: $colorgrisclaro;
+    background-color: nth($colores, 1);
     height: 25rem;
-    object-fit: cover;
+    object-fit: $objectfit;
 
 
     
@@ -108,7 +97,7 @@ $colorgrisclaro:rgba(198, 198, 178, 0.795);
 
 .contenedorflex{
     @include flexbasico(space-around);
-    object-fit: cover;
+    object-fit: $objectfit;
     gap: 1rem;
     flex-wrap: wrap;
 
@@ -118,18 +107,18 @@ $colorgrisclaro:rgba(198, 198, 178, 0.795);
         h2{
             margin: 0;
             text-align: $textoalineado;
-            background-color: $colorgrisclaro;
+            background-color: nth($colores, 1);
         }
         p{
                 font-size: 0,8rem;
                 margin-top: $margintop;
                 margin-bottom: 1rem;
-                background-color: $colorgrisclaro;
+                background-color: nth($colores, 1);
         }
         button{
                     border: none;
                     font-size: 1rem;
-                    background-color: rgba(249, 249, 243, 0.881);
+                    background-color: nth($colores, 3);
                     padding: 1rem 1rem;
                     border-radius: 1rem;
                     cursor: pointer;
@@ -172,7 +161,7 @@ $colorgrisclaro:rgba(198, 198, 178, 0.795);
        
 
 .logoinstagram img{
-    margin-top: $margintop;
+    margin-top: 5rem;
 }
 
 .ubicacion {
@@ -187,8 +176,7 @@ $colorgrisclaro:rgba(198, 198, 178, 0.795);
 }
 
 .diseños{
-    display: flex;
-    justify-content: space-between;
+    @include flexbasico(space-between);
     flex-wrap: wrap;
     width: 80%;
     margin: 0 auto;
@@ -196,11 +184,11 @@ $colorgrisclaro:rgba(198, 198, 178, 0.795);
        img{
         width: 20rem;
         height: 20rem;
-        object-fit: cover;
+        object-fit: $objectfit;
         margin: 2px;
         border-radius: 2rem;
 
-        :hover {
+        &:hover {
             transform: scale(2);
            }
        }
@@ -223,14 +211,16 @@ a.buttonn{
         text-align: $textoalineado;
         border-radius: 2rem;
         text-decoration: none;
-        background-color: beige;
-        color: rgba(28, 27, 27, 0.74);
+        background-color: nth($colores, 3);
+        color: nth($colores, 4);
+
+        &:hover{
+            background-color: nth($colores, 2);
+        }
           
 }
 
-.buttonn:hover {
-    background-color: rgba(165, 42, 42, 0.642);
-  }
+
 
 
 @media (max-width: 768px) {
@@ -240,7 +230,7 @@ a.buttonn{
 
     nav ul {
         flex-direction: column; 
-        align-items: center;
+        align-items: $textoalineado;
     }
 
     nav ul li {
