@@ -242,6 +242,16 @@ a.buttonn{
     }
 }
 
+@media (max-width: 576px) {
+    .card {
+        max-width:80%;
+        margin: 0 auto;
+    }
+    .card img {
+      height:auto;
+      max-width:100%;
+    }
+  }
 
 
 
